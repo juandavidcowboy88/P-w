@@ -10,11 +10,15 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require vitality-mixitup
+//= require vitality
+//= require style
+
 //= require owl.carousel
 //= require magnific-popup
 //= require tether
@@ -22,5 +26,3 @@
 //= require mixitup
 //= require wow
 //= require contact_me
-//= require vitality
-//= require vitality-mixitup

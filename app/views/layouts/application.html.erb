@@ -1,14 +1,68 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Juanpage</title>
-    <%= csrf_meta_tags %>
+ <!DOCTYPE html>
+<html lang="en"><head>
 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+
+    <title>Juanpage</title>
+
+    <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
+
   </head>
 
-  <body>
+  <body id="page-top">
+
+      <!-- Navigation -->
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse navbar-expanded" id="mainNav">
+          <div class="container">
+              <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">
+                  Vitality
+              </a>
+              <div class="collapse navbar-collapse" id="navbarResponsive" aria-expanded="false">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link page-scroll" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link page-scroll" href="#services">Services</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link page-scroll" href="#process">Process</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link page-scroll" href="#work">Work</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link page-scroll" href="#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
     <%= yield %>
   </body>
 </html>

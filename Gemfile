@@ -12,7 +12,7 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
-gem 'bootstrap-sass', '~> 3.3.6'
+# gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -39,10 +39,10 @@ gem 'jbuilder', '~> 2.5'
 gem "font-awesome-rails"
 gem 'owlcarousel-rails'
 gem 'magnific-popup-rails', '~> 1.1.0'
-gem 'tether-rails'
+#gem 'tether-rails'
 gem "animate-rails"
 gem 'bower'
-gem 'mixitup_rails'
+#gem 'mixitup_rails'
 gem 'vider', github: 'wazery/vider'
 gem 'wow-rails'
 

@@ -15,20 +15,20 @@
  // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+//@import "bootstrap-sprockets";
+//@import "bootstrap";
 @import "font-awesome";
 @import "owl.carousel";
 @import "owl.theme";
 @import "magnific-popup";
-@import "tether";
-@import "tether-theme-basic";
-@import "tether-theme-arrows";
-@import "tether-theme-arrows-dark";
+//@import "tether";
+//@import "tether-theme-basic";
+//@import "tether-theme-arrows";
+//@import "tether-theme-arrows-dark";
 @import "animate";
 @import "device-mockups";
-@import "onepage";
-@import "css_002";
-@import "css";
-// @import "vitality-red";
-@import "vitality-turquoise";
+//@import "onepage";
+//@import "css_002";
+//@import "css";
+@import "vitality-red";  // you can this one or onepage
+//@import "vitality-turquoise";

@@ -12,17 +12,14 @@
 //
 
 //= require jquery
-//= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
+//= require mixitup
 //= require vitality-mixitup
 //= require vitality
 //= require style
-
 //= require owl.carousel
 //= require magnific-popup
-//= require tether
 //= require jquery.vide
-//= require mixitup
 //= require wow
 //= require contact_me

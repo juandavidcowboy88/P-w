@@ -23,8 +23,8 @@ $(function() {
                 data: {
                     name: name,
                     phone: phone,
-                    email: ema
-                cache: false,
+                    email: ema,
+                      cache: false}
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
@@ -54,6 +54,7 @@ $(function() {
             return $(this).is(":visible");
         },
     });
+
 
     $("a[data-toggle=\"tab\"]").click(function(e) {
         e.preventDefault();
